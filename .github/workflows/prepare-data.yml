@@ -5,6 +5,7 @@ on:
       - main
   schedule:
     - cron: '0 1 15 * *' # 1:00 on every 15th (UTC time)
+  workflow_dispatch:
 
 jobs:
   prepare-data:

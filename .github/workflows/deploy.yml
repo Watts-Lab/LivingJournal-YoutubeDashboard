@@ -5,6 +5,7 @@ on:
       - main
   schedule:
     - cron: '30 1 15 * *' # 1:30 on every 15th (UTC time)
+  workflow_dispatch:
 
 permissions:
   contents: write
