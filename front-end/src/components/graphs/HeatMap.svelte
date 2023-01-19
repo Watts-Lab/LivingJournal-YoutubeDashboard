@@ -39,15 +39,17 @@
     <LayerCake
         { data }
         padding={{
-            top: 0,
+            top: 10,
             bottom: 0,
-            left: 0,
+            left: 50,
             right: 0,
         }}
         position={'relative'}
         custom={{ scaleColor }}
     >
         <Html>
+          <div class='axis axis-y'>YouTube Community</div>
+          <div class='axis axis-x'>Web News Category</div>
           <HeatMapGrid 
             on:mousemove={event => evt = hideTooltip = event}
             on:mouseout={() => hideTooltip = true}
@@ -155,5 +157,25 @@
       @media (min-width: $bp-3) {
           grid-row: 2 / span 1; 
       }
+  }
+
+  .axis {
+    position: absolute;
+    color: $dark-grey;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    @include fs-sm;
+  }
+
+  .axis-x {
+    top: 0;
+    left: 50%;
+    transform: translate(calc(-50% + 32px),0);
+  }
+
+  .axis-y {
+    top: calc(50% + 10px);
+    left: 0;
+    transform: translate(-65%, 0) rotate(-90deg);
   }
 </style>

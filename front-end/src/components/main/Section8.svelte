@@ -49,7 +49,7 @@
             spanCol={12}
             row={3}
             customClass={'chart-medium'}
-            title={'Title goes here'}
+            title={'How users arrive at political content'}
             caption={captions[0].value}
         />
     {:else} <div class='chart-placeholder'></div>

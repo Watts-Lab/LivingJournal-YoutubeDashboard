@@ -176,7 +176,11 @@
             },
             {
                 "type": "text",
-                "value": "This model has a major effect on the way we can visualize political communities on the platform. Rather than being static groups of politically siloed users, these communities are continuously shifting – not only do clusters lose their own members and gain members from other clusters, but a user may not fall into any of these communities at all in any given month. (Note: “News consumers” are defined as individuals who, over the course of 1 month, spend a minimum of 1 minute of watch time on any of the political channels in our labeled set.)"
+                "value": "This model has a major effect on the way we can visualize political communities on the platform. Rather than being static groups of politically siloed users, these communities are continuously shifting – not only do clusters lose their own members and gain members from other clusters, but a user may not fall into any of these communities at all in any given month."
+            },
+            {
+                "type": "(Note",
+                "value": "“News consumers” are defined as individuals who, over the course of 1 month, spend a minimum of 1 minute of watch time on any of the political channels in our labeled set. The vast majority of YouTube users do not meet this criteria, so it is useful to keep in mind that the figure above — and many of the figures throughout this dashboard — only illustrates net flow within one small active part of the population.)"
             }
         ],
         "references": [
@@ -240,11 +244,23 @@
         "copy": [
             {
                 "type": "text",
-                "value": "Based on select anecdotes, there have been concerns that YouTube’s video recommendation algorithm pushes viewers towards more politically extreme content. However, there is little large-scale data to support this. Analyzing consumption habits within viewing sessions can tell us more clearly whether users are radicalized by the algorithm."
+                "value": "Based on select anecdotes, there have been concerns that YouTube’s video recommendation algorithm pushes viewers towards more politically extreme content. However, there is little large-scale data to support this. Analyzing consumption habits across the web — in other words, on and off the YouTube platform — can tell us more clearly whether users are radicalized by the algorithm, or whether their YouTube viewing preferences simply align with the types of content they consume elsewhere on the web."
             },
             {
                 "type": "text",
-                "value": "If the recommendation algorithm were biased, we would expect to see an increased frequency of radical content towards the end of a viewing session, after users have been exposed to more recommended content. However, when we checked whether radical content is more likely to be consumed later in a user’s viewing session, we observed the opposite – all six content categories showed decreasing frequency as sessions progressed. This suggests that longer viewing sessions are increasingly steered towards non-news content."
+                "value": "The figure above shows the “risk” of someone from one of our defined political communities on YouTube (shown on the left/vertical axis) consuming content from one of those sections of the political spectrum (shown on the top/horizontal axis) off of the YouTube platform. From this info, we can glean two key results."
+            },
+            {
+                "type": "text",
+                "value": "First, members of the right and far-right communities are over twice as likely to consume right-leaning content and 3 times as likely to consume far-right content outside of YouTube compared with an average user."
+            },
+            {
+                "type": "text",
+                "value": "Second, off-platform consumption by members of the anti-woke community is biased in a very similar way to that of right and far-right members. In other words, even if anti-woke channel owners do not see themselves as associating with right or far-right ideologies, their viewers do."
+            },
+            {
+                "type": "text",
+                "value": "If the algorithm does drive radicalization through its recommendations, we would expect to see more interaction with radical political content on the platform compared to off of it. But instead, these results show a strong correlation between on- and off-platform tastes. While these results do not rule out that recommendations are driving engagement for the heaviest consumers, they are strongly consistent with the explanation that consumption of radical content on YouTube is, at least in part, a reflection of user preferences."
             }
         ],
         "references": [
@@ -260,7 +276,7 @@
         "captions": [
             {
                 "type": "text",
-                "value": "CHANGE CAPTION HERE"
+                "value": "The figure shows how likely it is for a YouTube user from a certain political community to consume content from a certain political category off of the YouTube platform, compared to a random YouTube user. For example, we can see that a member of YouTube’s anti-woke community is 2.2 times more likely than the average user to consume far-right content off of YouTube."
             }
         ]
     },
@@ -268,11 +284,15 @@
         "copy": [
             {
                 "type": "text",
-                "value": "Based on select anecdotes, there have been concerns that YouTube’s video recommendation algorithm pushes viewers towards more politically extreme content. However, there is little large-scale data to support this. Analyzing consumption habits within viewing sessions can tell us more clearly whether users are radicalized by the algorithm."
+                "value": "We also checked whether radical content was more likely to be consumed later in a user’s viewing session, after viewers had been exposed to more recommended content. A biased recommendation algorithm would lead to an increased frequency of radical content towards the end of a viewing session, since users have more opportunities to click on recommended content the more videos they watch."
             },
             {
                 "type": "text",
-                "value": "If the recommendation algorithm were biased, we would expect to see an increased frequency of radical content towards the end of a viewing session, after users have been exposed to more recommended content. However, when we checked whether radical content is more likely to be consumed later in a user’s viewing session, we observed the opposite – all six content categories showed decreasing frequency as sessions progressed. This suggests that longer viewing sessions are increasingly steered towards non-news content."
+                "value": "However, we observed the opposite. Selecting “Fraction of videos by session length” in the dropdown above, we observe that videos in long viewing sessions are not more likely to belong to radical content categories further along in the viewing session, i.e. after the recommendation algorithm has had more opportunities to steer users towards extreme videos."
+            },
+            {
+                "type": "text",
+                "value": "Similarly, by selecting “Frequency by session length,” we see that all six content categories appeared less and less frequently as users viewed a series of videos. This suggests that longer viewing sessions are increasingly steered towards non-news content. Both of these findings undercut claims of YouTube driving radicalization through its recommendation system."
             }
         ],
         "references": [
@@ -288,11 +308,11 @@
         "captions": [
             {
                 "type": "text",
-                "value": "The average likelihood of a video at a certain point in a viewing session (i.e. the fourth video in a session) being content from one of the political categories. We assess viewing sessions that are 20 or more videos in length. For example, in a session with at least 20 videos, there is an 8% chance that the first video was far-right content."
+                "value": "The average likelihood of a video at a certain point in a viewing session — i.e. halfway (0.5) or three-quarters of the way (0.75) through a session — being from one of the political categories. Here we assess viewing sessions that are 20 or more videos in length. For example, in a session with at least 20 videos, there is an 8% chance that the first video was far-right content. That likelihood drops below 5% one-quarter (0.25) of the way through a viewing session."
             },
             {
                 "type": "text",
-                "value": "Average fraction of videos of a political category by numbers of videos in sessions. For example, in a typical session where a user viewed nine videos, about 8% of their watchtime was far-right content. Sessions are between 10 and 60 minutes. Sessions with more than 30 videos (2% of sessions) were dropped."
+                "value": "Average fraction of videos of a political category by numbers of videos in sessions. For example, in a typical session where a user viewed nine videos, about 8% of their watchtime was far-right content. Sessions are between 10 and 60 minutes. Sessions with more than 30 videos (2% of sessions) were dropped from the chart."
             }
         ]
     },
@@ -300,11 +320,11 @@
         "copy": [
             {
                 "type": "text",
-                "value": "Based on select anecdotes, there have been concerns that YouTube’s video recommendation algorithm pushes viewers towards more politically extreme content. However, there is little large-scale data to support this. Analyzing consumption habits within viewing sessions can tell us more clearly whether users are radicalized by the algorithm."
+                "value": "Finally, we analyze the pathways that viewers use to find radical content on YouTube. If the recommendation system does impact viewing patterns, we would expect to find that arrivals at radical content are dominated by the video views immediately preceding them."
             },
             {
                 "type": "text",
-                "value": "If the recommendation algorithm were biased, we would expect to see an increased frequency of radical content towards the end of a viewing session, after users have been exposed to more recommended content. However, when we checked whether radical content is more likely to be consumed later in a user’s viewing session, we observed the opposite – all six content categories showed decreasing frequency as sessions progressed. This suggests that longer viewing sessions are increasingly steered towards non-news content."
+                "value": "However, the visualization above shows that other routes play key roles. For instance, while 35% of far-right videos were preceded by another video, nearly 58% of referrals in our dataset came from external URLs, the YouTube homepage, or direct searches. While this, too, does not entirely rule out the recommendation system as an influence, it emphasizes the consistency of user preferences across platforms."
             }
         ],
         "references": [
@@ -320,7 +340,7 @@
         "captions": [
             {
                 "type": "text",
-                "value": "Distribution of the entry points of videos within each political category"
+                "value": "Distribution of the entry points of videos within each political category. For example, 10% of far-left video views came directly after a user viewed the YouTube homepage."
             }
         ]
     },
@@ -329,10 +349,6 @@
             {
                 "type": "text",
                 "value": "The graph displays the status of the daily YouTube crawler used to collect transcripts and meta data from 13K news channels. It tracks the number of videos crawled per month between January 2021 and October 2021, with the line representing three-month moving averages."
-            },
-            {
-                "type": "text",
-                "value": "The filterable chart presents information on all monitored channels used in our dataset."
             }
         ],
         "references": [

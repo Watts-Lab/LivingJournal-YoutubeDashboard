@@ -47,7 +47,7 @@
 	}
 	.section {
 		max-width: $column-width;
-		margin: 3em auto;
+		margin: 1em auto 1em auto;
 		display: grid;
 	}
 
@@ -68,7 +68,7 @@
 		margin: 0;
 
 		@media (min-width: $bp-3) {
-			margin: 35px 0;
+			margin: 35px 0 0 0;
 		}
 
 		p {

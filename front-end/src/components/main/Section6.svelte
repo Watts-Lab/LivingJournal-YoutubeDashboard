@@ -32,11 +32,11 @@
     let data_fig6 : any[]
     let cols : string[]
 
-    const sankeyTooltipFormatter = d => {
-        if (d === 1) return 'Just as likely as average user'
-        if (d > 1) return `More likely to consume than average user. Probability: ${d}`
-        return `Less likely to consume than average user. Probability: ${d}`
-    }
+    // const sankeyTooltipFormatter = d => {
+    //     if (d === 1) return 'Just as likely as average user'
+    //     if (d > 1) return `More likely to consume than average user. Probability: ${d}`
+    //     return `Less likely to consume than average user. Probability: ${d}`
+    // }
 
     onMount(async () => {
         const res_fig6 = await csv(url_fig6, autoType)
