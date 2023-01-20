@@ -47,8 +47,12 @@
 	}
 	.section {
 		max-width: $column-width;
-		margin: 1em auto 1em auto;
+		margin: 3em auto;
 		display: grid;
+	}
+
+	.section:last-of-type {
+		margin-bottom: 5em;
 	}
 
 	.chart {
