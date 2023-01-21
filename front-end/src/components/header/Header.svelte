@@ -179,15 +179,34 @@
 
     #et-top-navigation {
         display: none;
+        height: 100%;
 
         @media (min-width: $bp-3) {
             display: block; 
+            
         }
     }
+
+    #top-menu-nav {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #top-menu {
+        margin: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+
     .menu-item, .menu-item-has-children {
         display: inline-block;
+        // align-items: center;
         font-size: 14px;
         padding-right: 22px;
+        height: 100%;
 
         .sub-menu {
             position: absolute;
@@ -210,7 +229,7 @@
         .sub-menu {
             visibility: visible;
             opacity: 1;
-            margin: 29px 0 0 0;
+            // margin: 29px 0 0 0;
         }
     }
 
@@ -218,6 +237,9 @@
         color: $light-grey;
         font-weight: 300;
         text-transform: uppercase;
+        display: inline-flex;
+        align-items: center;
+        height: 100%;
     }
 
     .sub-menu-item-anchor {
