@@ -83,7 +83,7 @@
 				let:detail
 			>
 				{@const tooltipData = { ...detail.props }}
-				<div class='channel-label'>{tooltipData.channel_name}</div>
+				<!-- <div class='channel-label'>{tooltipData.channel_name}</div> -->
 				<div
 					class='cluster-label'
 					style="--color: {colorMap.get(tooltipData.cluster)}"
