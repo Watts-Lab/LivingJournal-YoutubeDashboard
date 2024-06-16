@@ -13,7 +13,7 @@
       <div 
         class='author-container'
         >
-        <div class='author-photo' style="--photo-url: url('/assets/images/{author.photo}')"></div>
+        <div class='author-photo' style="--photo-url: url('assets/images/{author.photo}')"></div>
         <a class='author-bio' href={author.url}>
           <p class='author-name'>{author.name}</p>
           <p class='author-desc'>{author.desc}</p>
