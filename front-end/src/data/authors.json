@@ -1,45 +1,32 @@
 [
-    {
-        "name": "Homa Hosseinmardi",
-        "detail": [
-            "Department of Computer and Information Science, University of Pennsylvania, Philadelphia, PA 19104",
-            "homahm@seas.upenn.edu"
-        ]
-    },
-    {
-        "name": "Amir Ghasemian",
-        "detail": [
-            "Department of Statistics, Harvard University, Cambridge, MA 02138",
-            "Department of Statistical Science, Fox School of Business, Temple University, Philadelphia, PA 19122"
-        ]
-    },
-    {
-        "name": "Aaron Clauset",
-        "detail": [
-            "Department of Computer Science, University of Colorado Boulder, Boulder, CO 80309",
-            "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO 80303",
-            "Santa Fe Institute, Santa Fe, NM 87501"
-        ]
-    },
-    {
-        "name": "Markus Mobius",
-        "detail": [
-            "Microsoft Research New England, Cambridge, MA 02142"
-        ]
-    },
-    {
-        "name": "David M. Rothschild",
-        "detail": [
-            "Microsoft Research New York, New York, NY 10012"
-        ]
-    },
-    {
-        "name": "Duncan J. Watts",
-        "detail": [
-            "Department of Computer and Information Science, University of Pennsylvania, Philadelphia, PA 19104",
-            "The Annenberg School of Communication, University of Pennsylvania, Philadelphia, PA 19104",
-            "Operations, Information, and Decisions Department, University of Pennsylvania, Philadelphia, PA 19104",
-            "djwatts@seas.upenn.edu"
-        ]
-    }
+  {
+    "name": "Homa Hosseinmardi",
+    "desc": "Associate Research Scientist",
+    "url": "https://css.seas.upenn.edu/people/homa-hosseinmardi/",
+    "photo": "homa-hosseinmardi.png"
+  },
+  {
+    "name": "Duncan J. Watts",
+    "desc": "CSSLab Director",
+    "url": "https://css.seas.upenn.edu/people/duncan-watts/",
+    "photo": "duncan-j-watts.png"
+  },
+  {
+    "name": "Felippe Rodrigues",
+    "desc": "Front-end Developer",
+    "url": "https://fsorodrigues.dev",
+    "photo": "felippe-rodrigues.jpg"
+  },
+  {
+    "name": "Emma Arsekin",
+    "desc": "Fmr. Senior Communications Specialist",
+    "url": "https://css.seas.upenn.edu/",
+    "photo": "emma-arsekin.jpg"
+  },
+  {
+    "name": "Miguel Rivera-Lanas",
+    "desc": "Fmr. Data Scientist",
+    "url": "https://css.seas.upenn.edu/",
+    "photo": "miguel-rivera-lanas.jpg"
+  }
 ]

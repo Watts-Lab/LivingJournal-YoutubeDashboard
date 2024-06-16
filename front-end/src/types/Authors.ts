@@ -1,4 +1,6 @@
 export default interface Author {
-    name: string;
-    detail: string[];
-  }
+  name: string;
+  desc: string;
+  url: string;
+  photo: string;
+}
